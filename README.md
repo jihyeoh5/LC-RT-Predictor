@@ -2,6 +2,7 @@
 This MATLAB application has two tabs called:
   1) Multilinear Regression
   2) Artificial Neural Network
+  
 Each tab accepts two .csv files as input files:
   1) Genetic Algorithm (GA) Output File
   2) Input File
