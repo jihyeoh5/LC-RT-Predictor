@@ -1,4 +1,4 @@
-function varargout = RT_prediction_gui3(varargin)
+function varargout = LCRT_prediction_gui(varargin)
 % RT_PREDICTION_GUI3 MATLAB code for RT_prediction_gui3.fig
 %      RT_PREDICTION_GUI3, by itself, creates a new RT_PREDICTION_GUI3 or raises the existing
 %      singleton*.
@@ -28,8 +28,8 @@ function varargout = RT_prediction_gui3(varargin)
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
-                   'gui_OpeningFcn', @RT_prediction_gui3_OpeningFcn, ...
-                   'gui_OutputFcn',  @RT_prediction_gui3_OutputFcn, ...
+                   'gui_OpeningFcn', @LCRT_prediction_gui_OpeningFcn, ...
+                   'gui_OutputFcn',  @LCRT_prediction_gui_OutputFcn, ...
                    'gui_LayoutFcn',  [] , ...
                    'gui_Callback',   []);
 if nargin && ischar(varargin{1})
@@ -45,7 +45,7 @@ end
 end
 
 % --- Executes just before RT_prediction_gui3 is made visible.
-function RT_prediction_gui3_OpeningFcn(hObject, eventdata, handles, varargin)
+function LCRT_prediction_gui_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
@@ -81,7 +81,7 @@ set(handles.text28,'String','Levelberg-Marquardt');
 end
 
 % --- Outputs from this function are returned to the command line.
-function varargout = RT_prediction_gui3_OutputFcn(hObject, eventdata, handles) 
+function varargout = LCRT_prediction_gui_OutputFcn(hObject, eventdata, handles) 
 % varargout  cell array for returning output args (see VARARGOUT);
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
