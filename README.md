@@ -13,6 +13,7 @@ Once the input files are submitted, the app displays the results, which differ f
   2) Predicted RT vs Experimental RT graph
   3) Data including: number of EDD's, Model to External ratio, R^2 value from model equation, etc...
   4) The Predicted RT's shown in table format
+  
 Meanwhile, on the ANN tab, the data that will appear after the calculations have completed are:
   1) Data including: number of EDD's, number of descriptors, and number of achieved R^2 (opposed to the target R^2)
   2) Predicted RT vs Experimental RT graph
